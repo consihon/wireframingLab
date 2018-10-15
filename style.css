@@ -1,3 +1,11 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 header{
     height:96px;
     background-color:#444;
@@ -21,7 +29,7 @@ nav li{
     display:inline-block;
     padding: 23px 0;
     font-size:18px;
-    margin-right:90px;
+    margin-right:85px;
 }
 main{
     padding:30px 0;
@@ -30,4 +38,43 @@ main{
 } 
 main > img{
     margin-bottom:29px;
+    float:left;
+}
+#left{
+    margin-right:30px;
+    float:left;
+}
+#right{
+    margin-left:30px;
+    float:left;
+}
+#middle{
+    float:left;
+    margin-bottom:29px;
+}
+article{
+    margin-top:29px;
+}
+article img{
+    float: left;
+    margin-right:29px;
+    margin-bottom:40px;
+}
+article h3{
+    float:left;
+    font-size: 20px;
+}
+article p{
+    height:325px;
+    width:450px;
+    float:left;
+    overflow: scroll;
+}
+button{
+    height:45px;
+    margin-top:10px;
+    font-size:20px;
+    color:white;
+    background-color: black;
+    float:left;
 }
